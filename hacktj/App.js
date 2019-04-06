@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, Dimensions } from 'react-native';
-import { Alert, AppRegistry, Button, StyleSheet, View } from 'react-native';
+import { StyleSheet, Text, View, Dimensions, Alert, AppRegistry, Button} from 'react-native';
 
 export default class App extends React.Component {
   render() {
