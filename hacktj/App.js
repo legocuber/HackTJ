@@ -10,9 +10,9 @@ export default class App extends React.Component {
     } catch (error) {
       Alert.alert("Error: couldn't save your pin, sorry");
     }
-  }
+  };
   static _getData = async (key) => {
-    try{
+    try {
       const value = await AsyncStorage.getItem(key);
       if (value !== null) Alert.alert(value);
       else Alert.alert(key + " was null");
@@ -21,13 +21,19 @@ export default class App extends React.Component {
       Alert.alert("Error: couldn't load your pin, sorry");
     }
 
-  }
+  };
 
-
+  static lastTime = 1e10;
   _onPressButton() {
     Alert.alert("Warning - please enter your pin");
+    setTimeout(App.callAuthorities, 5000);
     //Alert.alert('Congratulations! You have just clicked a button. You will recieve a $100 amazon gift card $$$$!!!$$$$ not a scam !!!$$');
   }
+
+  static callAuthorities() {
+    Alert.alert("Calling authorities. you done messed up ");
+  }
+
   render() {
     var elem = [];
     var pin = App._getData("@WalkMeThere:pin");
