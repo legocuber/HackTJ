@@ -6,7 +6,7 @@ export default class App extends React.Component {
   render() {
     return (
 	  _onPressButton() {
-    Alert.alert('You tapped the button!')
+    Alert.alert('go to help ')
     }
       <View style={styles.container}>
 		  <Text style={styles.titletext}>SafeWalk - Get Home Safe</Text>
