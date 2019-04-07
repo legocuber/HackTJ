@@ -1,6 +1,6 @@
 {
-  "expo": {  
-    "name": "HackTJ App",
+  "expo": {
+    "name": "HackTJ",
     "slug": "hacktj",
     "privacy": "public",
     "sdkVersion": "32.0.0",
@@ -24,7 +24,6 @@
     ],
     "ios": {
       "supportsTablet": true
-    },
-    "description": ""
+    }
   }
 }
