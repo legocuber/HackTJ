@@ -7,9 +7,16 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "^32.0.6",
+    "expo": "^32.0.0",
+    "fs": "0.0.1-security",
+    "jsonfile": "^5.0.0",
+    "path": "^0.12.7",
     "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-elements": "^1.1.0",
+    "react-native-fs": "^2.13.3",
+    "react-native-tab-view": "^2.0.3",
+    "yarn": "^1.15.2"
   },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0"
